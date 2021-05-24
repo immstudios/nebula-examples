@@ -1,0 +1,9 @@
+<service>
+    <folder id_storage="1" path="media.dir/jingles" recursive="1" id_folder="7"></folder>
+    <folder id_storage="1" path="media.dir/self" recursive="1" id_folder="5"></folder>
+    <folder id_storage="1" path="media.dir/templates" recursive="1" id_folder="8"></folder>
+    <folder id_storage="1" path="media.dir/trailers" recursive="1" id_folder="6"></folder>
+    <folder id_storage="1" path="media.dir/vimeo" recursive="1" id_folder="12"></folder>
+    <folder id_storage="1" path="media.dir/youtube" recursive="1" id_folder="12"></folder>
+    <folder id_storage="1" path="media.dir/movies" recursive="1" id_folder="1"></folder>
+</service>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <pre>
+        <![CDATA[
+        ]]>
+    </pre>
+    <allow_if>True</allow_if>
+    <task mode="ffmpeg">
+        <param name="filter:a">"loudnorm=I=-23"</param>
+        <param name="ar">48000</param>
+        <param name="c:v">"copy"</param>
+        <param name="c:a">"pcm_s16le"</param>
+        <param name="video_track_timescale">"25"</param>
+        <output storage="asset.get_playout_storage(1)" direct="1"><![CDATA[asset.get_playout_path(1)]]></output>
+    </task>
+    <success>
+        <![CDATA[
+        ]]>
+    </success>
+</settings>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <id_storage>1</id_storage>
+    <import_dir>import.dir</import_dir>
+    <backup_dir>backup.dir</backup_dir>
+
+    <fast_import_conditions>
+        <param name="video/codec">"dnxhd"</param>
+    </fast_import_conditions>
+
+    <profile>
+        <param name="fps">25</param>
+        <param name="width">1920</param>
+        <param name="height">1080</param>
+        <param name="pixel_format">"yuv422p"</param>
+        <param name="video_codec">"dnxhd"</param>
+        <param name="video_bitrate">"36M"</param>
+        <param name="audio_codec">"pcm_s16le"</param>
+    </profile>
+</service>
