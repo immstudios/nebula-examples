@@ -10,7 +10,6 @@
         <param name="ar">48000</param>
         <param name="c:v">"copy"</param>
         <param name="c:a">"pcm_s16le"</param>
-        <param name="video_track_timescale">"25"</param>
         <output storage="asset.get_playout_storage(1)" direct="1"><![CDATA[asset.get_playout_path(1)]]></output>
     </task>
     <success>

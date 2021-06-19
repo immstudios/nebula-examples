@@ -19,7 +19,7 @@
 
         <!-- frame format -->
         <param name="s">"640x360"</param>
-        <param name="r">25</param>
+        <param name="r">asset["video/fps_f"]</param>
         <param name="pix_fmt">"yuv420p"</param>
 
         <param name="c:v">"libx264"</param>
@@ -27,15 +27,13 @@
         <param name="preset:v">"fast"</param>
         <param name="g">1</param>
 
-        <param name="c:a">"libfdk_aac"</param>
+        <param name="c:a">"aac"</param>
         <param name="b:a">"128k"</param>
         <param name="ar">48000</param>
 
-        <param name="video_track_timescale">"25"</param>
         <param name='movflags'>"faststart"</param>
 
         <output storage="asset.proxy_storage">asset.proxy_path</output>
-
     </task>
 
     <success>
