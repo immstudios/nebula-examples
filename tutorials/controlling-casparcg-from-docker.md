@@ -10,8 +10,7 @@ controlling two channels of the same CasparCG server.
 
 Each channel must be configured with unique `controller_port` and `caspar_osc_port` values in the site template:
 
-```python=
-
+```python
 data["channels"] = {
     1 : [0, {
         'title': 'Channel 1',
